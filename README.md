@@ -8,7 +8,7 @@
 
 
 
-## Structure
+## 1. Structure
 
 ![스크린샷 2021-03-19 오후 4.50.17](structure.png)
 
@@ -42,7 +42,7 @@
 
 
 
-## Database
+## 2. Database
 
 cards
 
@@ -61,7 +61,7 @@ accounts
 
 
 
-## Usage
+## 3. Usage
 
 1) create account and card
 
@@ -69,7 +69,7 @@ accounts
 
 
 
-src/test.py
+**Example Code**) src/test.py
 
 ```python
 from bank import Bank
@@ -104,3 +104,4 @@ print(atm.withdraw(4000))
 print(atm.insert_card(card_number,"1234"))
 print(atm.get_balance())
 ```
+
